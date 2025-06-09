@@ -24,8 +24,8 @@ The following libraries must be installed in Arduino IDE:
 
 | ESP8266 Pin | NRF24L01+ Pin | Description |
 |------------|---------------|-------------|
-| D2 (GPIO4) | CE            | Module enable |
-| D4 (GPIO2) | CSN           | Chip select |
+| D2 (GPIO4) | CSN            | Chip Select |
+| D4 (GPIO2) | CE           | Module enable |
 | D5 (GPIO14)| SCK           | Serial clock signal |
 | D7 (GPIO13)| MOSI          | Data output |
 | D6 (GPIO12)| MISO          | Data input |

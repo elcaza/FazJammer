@@ -41,13 +41,13 @@ The following libraries must be installed in Arduino IDE:
 
 | ESP8266 Pin | Button Pin | Description |
 |------------|---------|-------------|
-| D3 (GPIO0) | Button  | User input button |
+| RX (GPIO3) | Button  | User input button (Another PIN Button to GND) |
 
 ## 🚀 Setup & Execution
 
 1. **Make the connections**: Complete the hardware setup as per the table above.
 2. **Install libraries**: Use **Library Manager** in Arduino IDE to install the required libraries.
-3. **Upload the code**: Open `Jammer.ino` in Arduino IDE and upload it to your ESP8266 board.
+3. **Upload the code**: Open `jammer.ino` in Arduino IDE and upload it to your ESP8266 board.
 4. **Power up the device**: Connect your ESP8266 to a power source. The OLED screen will display jammer information.
 
 ## 📡 Usage

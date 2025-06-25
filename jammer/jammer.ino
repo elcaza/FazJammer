@@ -9,7 +9,7 @@
 //Im using nodemcu esp8266
 RF24 radio(2, 4);//CE, CSN
 byte i = 45;
-ezButton buton(3);
+ezButton button(3);
 Adafruit_SSD1306 display = Adafruit_SSD1306(128, 64, &Wire);
 
 const int wifiFrequencies[] = {
@@ -84,7 +84,7 @@ void addvertising() {
 
 void setup() {
   Serial.begin(9600);
-  buton.setDebounceTime(320);
+  button.setDebounceTime(100);
   pinMode(3, INPUT_PULLUP);
   Wire.begin(14, 12);  //SDA, SCL
   if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
@@ -135,8 +135,8 @@ const char* modes[] = {
 };
 uint8_t attack_type = 2;
 void loop() {
-  buton.loop();
-  if (buton.isPressed()) {
+  button.loop();
+  if (button.isPressed()) {
     attack_type = (attack_type + 1) % 3;
     displayMessage((String(modes[attack_type])+" Mode").c_str());
   }

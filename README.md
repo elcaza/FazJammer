@@ -77,11 +77,5 @@ This project is for **educational purposes only** and unauthorized usage is **il
 
 **Developer:** [system-linux](https://github.com/system-linux)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-    srcset="https://api.star-history.com/svg?repos=owner/repo&type=Date&theme=dark" />
-  <source media="(prefers-color-scheme: light)"
-    srcset="https://api.star-history.com/svg?repos=owner/repo&type=Date" />
-  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=owner/repo&type=Date" />
-</picture>
-
+## Star History
+[![Star History Chart](https://api.star-history.com/svg?repos=system-linux/FazJammer&type=Date)](https://www.star-history.com/#system-linux/FazJammer&Date)

@@ -63,7 +63,7 @@ The current mode will be displayed on the OLED screen.
 
 **Note:** You can connect external power like small lipo batteries.
 
-**Warning:** The nRF24l01 module may become very hot during use. This does not affect operation. But it may overheat your hand :D.
+**Warning:** The nRF24l01 module getting extremely hot during use. This does not affect operation probably. But it may overheat your hand :D.
 
 ### Example photos
 ![Front side of jammer](https://github.com/system-linux/FazJammer/blob/main/photos/1.jpg?raw=true)
@@ -76,4 +76,12 @@ This project is for **educational purposes only** and unauthorized usage is **il
 ---
 
 **Developer:** [system-linux](https://github.com/system-linux)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://api.star-history.com/svg?repos=owner/repo&type=Date&theme=dark" />
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://api.star-history.com/svg?repos=owner/repo&type=Date" />
+  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=owner/repo&type=Date" />
+</picture>
 
